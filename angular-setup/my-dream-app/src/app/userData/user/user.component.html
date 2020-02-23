@@ -1,0 +1,5 @@
+<h2>Hello {{title}} </h2>
+<ul *ngFor="let user of userList">
+    <li>Title:-  {{user.title}}</li>
+    <li (click)="test(user.id)">Id:-  {{user.id}}</li>
+</ul>
